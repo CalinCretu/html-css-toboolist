@@ -2,9 +2,101 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+header {
+    padding: 15px;
+    background-color: rgb(224, 225, 230);
+}
+
 
 img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 55px;
+}
+
+.title {
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: rgb(224, 225, 230);
+    border-radius: 20px;
+}
+
+.overall {
+    padding: 10px 15px 5px 30px;
+}
+
+#button__add-task {
+    background-color: rgb(41, 129, 245);
+    border: none;
+    color: white;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#button__add-section {
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+hr {
+    border-color: white;
+}
+
+.list__title {
+    
+}
+
+.circle-checkmark {
+    font-family: sans-serif;
+    background: white;
+    color: green;
+    padding: 1px 4px;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+
+.cross-checkmark {
+    font-family: sans-serif;
+    background: white;
+    color: red;
+    padding: 1px 4px;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+h3 {
+    padding: 5px;
+}
+
+li {
+    padding: 8px;
+    font-weight: bold;
+}

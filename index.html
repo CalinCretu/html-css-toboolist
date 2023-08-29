@@ -12,40 +12,49 @@
     
     <section>
 
-      <img src="./img/Logo.png" alt="Logo-Toboolean">
-      <span>Toboolist</span>
+      <img class="logo" src="./img/Logo.png" alt="Logo-Toboolean">
+      <span class="title">Toboolist</span>
 
     </section>
 
   </header>
   <!-- page body divided in sections -->
-  <main>
+  <main class="container">
     <!-- buttons -->
-    <section>
+    <section class="overall">
 
-      <button>Add Task</button>
-      <button>Add Section</button>
+      <button id="button__add-task">Add Task</button>
+      <button id="button__add-section">Add Section</button>
 
     </section>
+
+    <hr>
+
     <!-- to do list -->
-    <section>
+    <section class="overall">
 
-      <ul> New Task
-        <li>Quarterly Newsletter</li>
+      <h3>&blacktriangledown;New Task</h3>
+
+      <ul class="list__title">
+        <li><span class="circle-checkmark">&check;</span> Quarterly Newsletter</li>
       </ul>
 
-      <ul> Today
-        <li>Recruiting blog post</li>
-        <li>Mobile app launch</li>
-        <li>Interview John H.</li>
-        <li>Summit update to mobile storefronts</li>
+      <h3>&blacktriangledown;Today</h3>
+
+      <ul class="list__title">
+        <li><span class="circle-checkmark">&check;</span> Recruiting blog post</li>
+        <li><span class="circle-checkmark">&check;</span> Mobile app launch</li>
+        <li><span class="cross-checkmark">&cross;</span> Interview John H.</li>
+        <li><span class="circle-checkmark">&check;</span> Summit update to mobile storefronts</li>
       </ul>
 
-      <ul>Upcoming
-        <li>Schedule meeting with Alex</li>
-        <li>Homepage refresh</li>
-        <li>Onboard new Sales team members</li>
-        <li>Review editorial</li>
+      <h3>&blacktriangledown;Upcoming</h3>
+
+      <ul class="list__title">
+        <li><span class="cross-checkmark">&cross;</span> Schedule meeting with Alex</li>
+        <li><span class="circle-checkmark">&check;</span> Homepage refresh</li>
+        <li><span class="circle-checkmark">&check;</span> Onboard new Sales team members</li>
+        <li><span class="circle-checkmark">&check;</span> Review editorial</li>
       </ul>
     </section>
 
