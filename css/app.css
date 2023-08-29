@@ -38,36 +38,31 @@ ul {
     border-radius: 20px;
 }
 
-.overall {
+.page-body {
     padding: 10px 15px 5px 30px;
 }
 
-#button__add-task {
+.border-bottom {
+    border-bottom: 1px solid white;
+}
+
+.btn {
+    padding: 3px 5px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+.btn-blue {
     background-color: rgb(41, 129, 245, 0.7);
     border: none;
     color: white;
-    padding: 3px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
 }
 
-#button__add-section {
+.btn-grey {
     background-color: white;
     border: 1px solid grey;
     color: grey;
-    padding: 3px 5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-hr {
-    border-color: white;
 }
 
 .list__title {
@@ -110,26 +105,26 @@ li {
     border-radius: 8px;
 }
 
-.editorial {
+.bg-blue {
     background-color: rgb(41, 129, 245, 0.7);
 }
 
-.q1__goals {
+.bg-violet {
     background-color: blueviolet;
 }
 
-.recruiting {
+.bg-dgreen {
     background-color: rgb(62, 156, 101, 0.7);
 }
 
-.mobile {
+.bg-orange {
     background-color: orange;
 }
 
-.website {
+.bg-pink {
     background-color: darkorchid;
 }
 
-.sales {
+.bg-lgreen {
     background-color: rgb(106, 173, 100);
 }
