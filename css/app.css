@@ -7,7 +7,7 @@
 
 header {
     padding: 15px;
-    background-color: rgb(224, 225, 230);
+    background-color: rgb(224, 225, 230, 0.7);
 }
 
 
@@ -34,7 +34,7 @@ ul {
 .container {
     max-width: 500px;
     margin: 30px auto;
-    background-color: rgb(224, 225, 230);
+    background-color: rgb(224, 225, 230, 0.7);
     border-radius: 20px;
 }
 
@@ -43,7 +43,7 @@ ul {
 }
 
 #button__add-task {
-    background-color: rgb(41, 129, 245);
+    background-color: rgb(41, 129, 245, 0.7);
     border: none;
     color: white;
     padding: 3px 5px;
@@ -71,7 +71,7 @@ hr {
 }
 
 .list__title {
-    
+    padding-bottom: 20px;
 }
 
 .circle-checkmark {
@@ -99,4 +99,37 @@ h3 {
 li {
     padding: 8px;
     font-weight: bold;
+}
+
+.flags {
+    border: none;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    font-size: 11px;
+    border-radius: 8px;
+}
+
+.editorial {
+    background-color: rgb(41, 129, 245, 0.7);
+}
+
+.q1__goals {
+    background-color: blueviolet;
+}
+
+.recruiting {
+    background-color: rgb(62, 156, 101, 0.7);
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: darkorchid;
+}
+
+.sales {
+    background-color: rgb(106, 173, 100);
 }
